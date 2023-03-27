@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle tree-sitter-inspector",
+        "command": "tree-sitter-inspector:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "tree-sitter-inspector",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "tree-sitter-inspector:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

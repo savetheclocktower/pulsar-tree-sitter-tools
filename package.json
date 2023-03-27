@@ -1,0 +1,20 @@
+{
+  "name": "tree-sitter-tools",
+  "main": "./lib/tree-sitter-tools",
+  "version": "0.0.1",
+  "description": "Tools for writing tree-sitter grammars in Pulsar",
+  "keywords": [],
+  "repository": "https://github.com/savetheclocktower/pulsar-tree-sitter-tools",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0",
+    "node": ">=14"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0"
+  },
+  "dependencies": {
+    "clusterize.js": "^1.0.0",
+    "etch": "^0.14.1"
+  }
+}
