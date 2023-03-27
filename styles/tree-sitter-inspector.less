@@ -37,6 +37,10 @@ atom-text-editor {
 .tree-sitter-inspector {
   max-height: 95vh;
 
+  &.editor-loading > .inspector-view {
+    display: none;
+  }
+
   .section-heading {
     font-size: 20px;
     margin-top: 0.5rem;
@@ -46,18 +50,21 @@ atom-text-editor {
   }
 
   .button-bar {
-    margin-top: 1.0rem;
     display: flex;
     flex-direction: row;
-    margin: 0 2.5%;
-    align-items: center;
+    margin: 0.5rem 2.5% 0;
+    align-items: baseline;
 
-    label {
-      margin-top: 2px;
-      margin-bottom: 0;
+    .toggle-container {
       margin-left: auto;
-      margin-right: 0.5rem;
+
+      label {
+        position: relative;
+        top: 2px;
+        margin-right: 0.5rem;
+      }
     }
+
   }
 
   .output-container-scroll {
