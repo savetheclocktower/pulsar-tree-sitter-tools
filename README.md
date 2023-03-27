@@ -2,6 +2,8 @@
 
 Tools for writing tree-sitter grammars in Pulsar.
 
+**IMPORTANT:** Currently only works on the [experimental tree-sitter modernization branch](https://github.com/savetheclocktower/pulsar/tree/tree-sitter-hell).
+
 <img width="599" alt="tree-sitter-tools screenshot" src="https://user-images.githubusercontent.com/3450/227824276-eadd65cf-1264-4a11-855b-574ac9ab6c96.png">
 
 ## Inspector
