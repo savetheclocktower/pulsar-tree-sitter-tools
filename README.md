@@ -33,6 +33,10 @@ The predicates `#match?` and `#eq?` are supported — though currently the inspe
 
 A grammar for tree-sitter query files is included.
 
+## Limitations
+
+* Doesn’t yet allow for inspecting of non-root trees (for example: a JavaScript injection into an HTML file).
+
 ## Planned enhancements
 
 * Ability to view or copy a node’s own `toString` (its description of itself in query syntax)
