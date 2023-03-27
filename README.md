@@ -27,15 +27,11 @@ When a query runs, each capture name in the query will be annotated with a color
 
 The decorations will persist through editor changes, and will update when the editor updates.
 
-The predicates `#match?` and `#eq?` are supported — though currently the inspector has no knowledge of Pulsar’s custom predicates.
+The built-in predicates `#match?` and `#eq?` are supported, as are the custom predicates supported by Pulsar via `#set!`.
 
 ## Grammar
 
 A grammar for tree-sitter query files is included.
-
-## Limitations
-
-* Doesn’t yet allow for inspecting of non-root trees (for example: a JavaScript injection into an HTML file).
 
 ## Planned enhancements
 
