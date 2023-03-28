@@ -1,8 +1,12 @@
 
 
-((comment) @comment.line.semicolon.scm)
+(comment) @comment.line.semicolon.scm
 
-((anonymous_node (identifier) @string.quoted.double.scm))
+((comment) @punctuation.definition.comment.scm
+  (#set! endAfterFirstMatchOf "^;"))
+
+(anonymous_node
+  (identifier) @string.quoted.double.scm)
 (string) @string.quoted.double.scm
 
 (capture) @variable.other.capture.scm
