@@ -1,4 +1,4 @@
-# tree-sitter-inspector package
+# tree-sitter-tools
 
 Tools for writing tree-sitter grammars in Pulsar.
 

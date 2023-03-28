@@ -2,16 +2,16 @@
 
 ((comment) @comment.line.semicolon.scm)
 
-((anonymous_node (identifier)
- @string.quoted.double.scm))
+((anonymous_node (identifier) @string.quoted.double.scm))
+(string) @string.quoted.double.scm
 
 (capture) @variable.other.capture.scm
-(capture "@" @punctuation.variable.scm)
+(capture "@" @punctuation.definition.variable.scm)
 
 (named_node
   name: (_) @constant.language.capture.scm)
-
-(named_node "_" @constant.language.capture.wildcard.scm)
+(named_node
+  "_" @constant.language.capture.wildcard.scm)
 
 ((field_definition) @storage.modifier.field.scm @entity.other.attribute-name.scm
   ; Extend to cover the colon.
