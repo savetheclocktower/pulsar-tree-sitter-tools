@@ -1,6 +1,6 @@
 name: 'Tree Sitter Query (SCM)'
 scopeName: 'source.scm'
-type: 'tree-sitter-2'
+type: 'modern-tree-sitter'
 parser: 'tree-sitter-query'
 
 injectionRegex: "^(SCM|scm)$"

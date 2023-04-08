@@ -5,7 +5,7 @@
 
 [
   "]"
-  ")"
+  ; ")"
 ] @dedent
 
 ")" @dedent.next

@@ -27,3 +27,5 @@
   (#set! endAt firstChild.nextSibling.nextSibling.nextSibling.endPosition))
 
 (escape_sequence) @constant.character.escape.scm
+
+(quantifier) @keyword.operator.quantifier.scm
