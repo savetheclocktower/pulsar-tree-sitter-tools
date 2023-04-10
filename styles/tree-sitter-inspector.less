@@ -49,11 +49,22 @@ atom-text-editor {
     margin-left: 2.5%;
   }
 
+  .layer-selector {
+    margin: 0.5rem 2.5% 0.75rem;
+  }
+
+  .injection-ranges-container.disabled {
+    opacity: 0.75;
+    label {
+      cursor: not-allowed;
+    }
+  }
+
   .button-bar {
     display: flex;
     flex-direction: row;
     margin: 0.5rem 2.5% 0;
-    align-items: baseline;
+    align-items: center;
 
     .toggle-container {
       margin-left: auto;
@@ -69,7 +80,7 @@ atom-text-editor {
 
   .output-container-scroll {
     overflow: auto;
-    max-height: 60vh;
+    max-height: 57.5vh;
     margin: 0.5rem 2.5%;
     overflow: scroll;
     // border: 1px solid @base-border-color;

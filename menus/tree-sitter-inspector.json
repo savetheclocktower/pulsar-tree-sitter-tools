@@ -12,7 +12,7 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "tree-sitter-inspector",
+          "label": "Tree-Sitter Tools",
           "submenu": [
             {
               "label": "Toggle",
