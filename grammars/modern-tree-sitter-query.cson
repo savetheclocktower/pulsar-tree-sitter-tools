@@ -12,6 +12,7 @@ treeSitter:
   highlightsQuery: 'tree-sitter-query/queries/highlights.scm'
   foldsQuery: 'tree-sitter-query/queries/folds.scm'
   indentsQuery: 'tree-sitter-query/queries/indents.scm'
+  tagsQuery: 'tree-sitter-query/queries/tags.scm'
 
 comment:
   start: '; '

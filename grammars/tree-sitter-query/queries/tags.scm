@@ -1,0 +1,1 @@
+(capture name: (identifier) @name)
