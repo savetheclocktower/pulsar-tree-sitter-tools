@@ -1,3 +1,3 @@
 
 ((grouping "(" @fold
-  (#set! endAt parent.lastChild.startPosition)))
+  (#set! fold.endAt parent.lastChild.startPosition)))

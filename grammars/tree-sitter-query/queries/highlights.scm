@@ -3,7 +3,7 @@
 (comment) @comment.line.semicolon.scm
 
 ((comment) @punctuation.definition.comment.scm
-  (#set! endAfterFirstMatchOf "^;"))
+  (#set! adjust.endAfterFirstMatchOf "^;"))
 
 (anonymous_node
   (identifier) @string.quoted.double.scm)
@@ -19,12 +19,12 @@
 
 ((field_definition) @storage.modifier.field.scm @entity.other.attribute-name.scm
   ; Extend to cover the colon.
-  (#set! endAt firstChild.nextSibling.endPosition))
+  (#set! adjust.endAt firstChild.nextSibling.endPosition))
 
 ((predicate) @keyword.other.special-method.scm
   ; Span the `#` and `?/!` on either side.
-  (#set! startAt firstChild.nextSibling.startPosition)
-  (#set! endAt firstChild.nextSibling.nextSibling.nextSibling.endPosition))
+  (#set! adjust.startAt firstChild.nextSibling.startPosition)
+  (#set! adjust.endAt firstChild.nextSibling.nextSibling.nextSibling.endPosition))
 
 (escape_sequence) @constant.character.escape.scm
 
