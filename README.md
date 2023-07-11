@@ -10,7 +10,7 @@ Tools for writing [Tree-sitter](https://tree-sitter.github.io/tree-sitter/) gram
 
 The Tree-sitter inspector pane is an enhanced version of the [Tree-sitter playground](https://tree-sitter.github.io/tree-sitter/playground).
 
-When inside of a buffer using a modern-tree-sitter grammar, run the **Tree Sitter Inspector: Open Inspector For Editor** command. A pane will open on the right side showing a representation of the editor’s Tree-sitter tree.
+When inside of a buffer using a modern-tree-sitter grammar, run the **Tree Sitter Tools: Open Inspector For Editor** command. A pane will open on the right side showing a representation of the editor’s Tree-sitter tree.
 
 Here’s what you can do:
 
