@@ -2,15 +2,15 @@
 
 Tools for writing [Tree-sitter](https://tree-sitter.github.io/tree-sitter/) grammars in Pulsar.
 
-**IMPORTANT:** Currently only works on the [experimental tree-sitter modernization branch](https://github.com/savetheclocktower/pulsar/tree/tree-sitter-hell).
+**IMPORTANT:** Currently only works on Pulsar v1.106.0 and up, and only with the `core.useExperimentalModernTreeSitter` setting enabled.
 
 <img width="1304" alt="tree-sitter-tools screenshot" src="https://user-images.githubusercontent.com/3450/235327463-81e1cb14-f34c-4f2d-bc0f-dcfeb4816d16.png">
 
 ## Inspector
 
-The Tree-sitter inspector pane is an enhanced version of the [tree-sitter playground](https://tree-sitter.github.io/tree-sitter/playground).
+The Tree-sitter inspector pane is an enhanced version of the [Tree-sitter playground](https://tree-sitter.github.io/tree-sitter/playground).
 
-When inside of a buffer using a modern-tree-sitter grammar, run the **Tree Sitter Inspector: Open Inspector For Editor** command. A pane will open on the right side showing a representation of the editor’s tree-sitter tree.
+When inside of a buffer using a modern-tree-sitter grammar, run the **Tree Sitter Inspector: Open Inspector For Editor** command. A pane will open on the right side showing a representation of the editor’s Tree-sitter tree.
 
 Here’s what you can do:
 
@@ -23,7 +23,7 @@ Here’s what you can do:
 
 ### Running queries
 
-The query field is shown below the node inspector and accepts any valid [tree-sitter query syntax](https://tree-sitter.github.io/tree-sitter/using-parsers#pattern-matching-with-queries).
+The query field is shown below the node inspector and accepts any valid [Tree-sitter query syntax](https://tree-sitter.github.io/tree-sitter/using-parsers#pattern-matching-with-queries).
 
 When a query runs, each capture name in the query will be annotated with a colored decoration, and any matches for that capture in the editor will have the same decoration.
 
