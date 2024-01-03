@@ -35,10 +35,17 @@ atom-text-editor {
 }
 
 .tree-sitter-inspector {
-  max-height: 95vh;
 
   &.editor-loading > .inspector-view {
     display: none;
+  }
+
+  .inspector-view {
+    position: static;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1vh;
   }
 
   .section-heading {
