@@ -29,3 +29,4 @@
 (escape_sequence) @constant.character.escape.scm
 
 (quantifier) @keyword.operator.quantifier.scm
+"." @keyword.operator.anchor.scm
