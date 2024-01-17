@@ -1,7 +1,7 @@
 {
   "name": "tree-sitter-tools",
   "main": "./lib/tree-sitter-tools",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Tools for writing tree-sitter grammars in Pulsar",
   "keywords": [],
   "repository": "https://github.com/savetheclocktower/pulsar-tree-sitter-tools",
