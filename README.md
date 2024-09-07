@@ -10,14 +10,21 @@ Tools for writing [Tree-sitter](https://tree-sitter.github.io/tree-sitter/) gram
 
 The Tree-sitter inspector pane is an enhanced version of the [Tree-sitter playground](https://tree-sitter.github.io/tree-sitter/playground).
 
-When inside of a buffer using a modern Tree-sitter grammar, run the **Tree Sitter Tools: Open Inspector For Editor** command. A pane will open on the right side showing a representation of the editor’s Tree-sitter tree.
+When inside of a buffer using a modern Tree-sitter grammar, you can open the editor any of the following ways:
+
+* Invoking the **Tree Sitter Tools: Open Inspector For Editor** command.
+* Right-clicking on an editor and selecting the **Open Tree-sitter Inspector For Editor**.
+* Invoking the hotkey: <kbd>Ctrl+Alt+Shift+I</kbd>.
+* Selecting _Packages → Tree-Sitter Tools → Open Inspector For Active Editor_ from the application menu.
+
+A pane will open on the right side showing a representation of the editor’s Tree-sitter tree.
 
 Here’s what you can do:
 
 * Clicking any node in the tree will select the corresponding editor range.
-* Clicking any node will also log the node itself to the developer console for inspection.
+* Clicking any node will also log the node itself to the developer tools console for inspection.
 * Moving the cursor will change what is focused in the inspector.
-* You may also toggle whether anonymous nodes are shown or hidden.
+* You may toggle whether anonymous nodes are shown or hidden in the tree.
 * You may choose a different “language layer” via the drop-down menu if more than one layer is present. The first item in the list will always be the root language layer. If the layer you’re inspecting is destroyed as a result of buffer changes, the view will reset to the root layer.
 * When you are inspecting a language layer other than the root, you may check the “Show injected ranges” checkbox to see the current content ranges of that layer’s injection. Editing the document while this option is checked is a useful visualization of how injection layers are re-processed in response to changes.
 
