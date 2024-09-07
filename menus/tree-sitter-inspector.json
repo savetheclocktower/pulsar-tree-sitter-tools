@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle tree-sitter-inspector",
-        "command": "tree-sitter-inspector:toggle"
+        "label": "Open Tree-sitter Inspector For Editor",
+        "command": "tree-sitter-tools:open-inspector-for-editor"
       }
     ]
   },
@@ -15,8 +15,8 @@
           "label": "Tree-Sitter Tools",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "tree-sitter-inspector:toggle"
+              "label": "Open Inspector For Active Editor",
+              "command": "tree-sitter-tools:open-inspector-for-editor"
             }
           ]
         }

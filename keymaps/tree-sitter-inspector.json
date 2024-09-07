@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "tree-sitter-inspector:toggle"
+    "ctrl-alt-shift-i": "tree-sitter-tools:open-inspector-for-editor"
   }
 }
